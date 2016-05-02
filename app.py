@@ -1,4 +1,4 @@
-__author__ = 'spousty'
+__author__ = 'ewenger'
 
 #import psycopg2
 from bottle import route, run, DEBUG
@@ -8,7 +8,7 @@ import os
 
 @route('/')
 def index():
-	return "<h1> hello OpenShift Ninja without DB</h1>"
+	return "<h1> this is eric's example </h1>"
 
 #@route('/db')
 #def dbexample():
